@@ -67,6 +67,8 @@ namespace BBOClick
             HookManager.MouseMove += HookManager_MouseMove;
             HookManager.KeyDown += HookManager_KeyDown;
             lblIsStart.Text = string.Format("F5：開始。 F6：停止。目前狀態：{0}", IsStart ? "開始" : "停止");
+
+            DateTime.Parse("2012/10/10");
         }
 
         #region 時間到執行
